@@ -1,7 +1,10 @@
 body{
     background-image: url("title2.png");
+    width: 600px;
+    height: 900px;
+    margin: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 1080px) {
             body {
                  width: 600px;
                  height: 900px; /* Set the width for desktop */
@@ -10,7 +13,7 @@ body{
         }
 
         /* Mobile styles */
-        @media (max-width: 767px) {
+        @media (max-width: 1080px) {
             body {
                 width: 400px; /* Set the width for mobile */
                 height: 800px

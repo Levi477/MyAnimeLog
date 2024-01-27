@@ -44,10 +44,15 @@ body{
 .nonunder :hover{
     color: aliceblue;
 }
+a{
+    color: black;
+}
 a :hover{
     color: rgb(255, 255, 255);
-    margin: 30px;
+    margin: 25px;
     box-shadow: 5px;
+    transition: color 700ms ease; /* Transition effect for color change */
+    cursor: pointer;
 }
 #naruto{
     
@@ -86,13 +91,16 @@ a :hover{
     padding: 10px;
     border-radius: 20px;
 }
+
 .nav{
     background-color: rgba(233, 233, 21, 0.914);
     padding: 1px;
     border-radius: 200px;
     margin: 5px;
-    
+    transition: color 0.5s ease; 
+    cursor: pointer;   
 }
+
 .aboutmetitle{
 background-color: rgba(94, 90, 226, 0.958);
 color: rgb(242, 255, 0);

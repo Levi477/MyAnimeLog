@@ -1,0 +1,36 @@
+body{
+    width: 600px;
+    height: 900px;
+    margin: auto;
+}
+.nav{
+    background-color: rgba(233, 233, 21, 0.914);
+    padding: 1px;
+    border-radius: 200px;
+    margin: 5px;}
+
+#nav{
+        background-color: rgba(13, 29, 95, 0.954);
+        margin-top: 0px  ;
+        margin-bottom: 10px  ;
+        border-radius: 30px;}
+
+.aboutmetitle{
+            background-color: rgba(94, 90, 226, 0.958);
+            color: rgb(241, 245, 179);
+            border-radius: 50px;
+            padding: 10px;
+            margin: 5px;
+            }
+
+            #home{
+                background-color: rgba(13, 29, 95, 0.957);
+                color: rgb(255, 255, 255);
+                padding: 2px;
+                border-radius: 10px;
+                text-decoration: none;
+                margin-bottom: 3px;
+            }
+body{
+    background-color: rgb(244, 216, 240);
+}            

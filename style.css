@@ -15,7 +15,8 @@ body{
         /* Mobile styles */
         @media (max-width: 767px) {
             body {
-                width: 100%; /* Set the width for mobile */
+                width: 400px; /* Set the width for mobile */
+                height: 800px
             }
         }
 #title{

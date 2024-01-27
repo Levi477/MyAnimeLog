@@ -4,21 +4,6 @@ body{
     height: 900px;
     margin: auto;
 }
-@media (min-width: 1080px) {
-            body {
-                 width: 600px;
-                 height: 900px; /* Set the width for desktop */
-                 margin: 0 auto; /* Center the content horizontally */
-            }
-        }
-
-        /* Mobile styles */
-        @media (max-width: 1080px) {
-            body {
-                width: 400px; /* Set the width for mobile */
-                height: 800px
-            }
-        }
 #title{
     text-align: center;
     background-color: rgba(31, 23, 121, 0.89);

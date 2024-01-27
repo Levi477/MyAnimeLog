@@ -1,8 +1,5 @@
 body{
     background-image: url("title2.png");
-    width: 600px;
-    height: 900px;
-    margin: auto;
 }
 @media (min-width: 768px) {
             body {

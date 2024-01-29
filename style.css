@@ -64,7 +64,7 @@ a{
 }
 a :hover{
     color: rgb(255, 255, 255);
-    margin: 25px;
+    margin-left: 20px;
     transition: color 500ms ease; /* Transition effect for color change */
 }
 #naruto{

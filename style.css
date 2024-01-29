@@ -62,7 +62,7 @@ a{
     color: black;
     text-decoration: none;
 }
-a :hover{
+.nav a :hover{
     color: rgb(255, 255, 255);
     margin-left: 20px;
     transition: color 500ms ease; /* Transition effect for color change */
@@ -145,4 +145,12 @@ margin: 5px;
     border-radius: 10px;
     text-decoration: none;
     margin-bottom: 3px;
+}
+
+#home a  :hover{
+    color: white;
+}
+
+#title a :hover{
+    color: white;
 }

@@ -6,12 +6,12 @@ body{
 }
 #title{
     text-align: center;
-    background-color: rgba(31, 23, 121, 0.89);
-    color: rgb(255, 255, 255);
+    /* background-color: rgba(13, 29, 95, 0.954); */
+    background-image: linear-gradient(to right,rgba(8, 8, 71, 0.964),rgba(198, 198, 198, 0.405));
     padding: 5px;
     margin: 20px;
-    border-radius: 20px;
-    text-shadow: 5px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px black;
 }
 .anm_name{
     align-content: center;
@@ -21,14 +21,17 @@ body{
     margin-top: 40px;
     border-radius: 20px;
     text-align: center;
-    box-shadow: inset;
+    box-shadow: 3px 3px 3px rgb(93, 93, 93);
+    text-shadow: 1px 1px 1px rgb(52, 52, 52);
 }
 #nav{
-    background-color: rgba(13, 29, 95, 0.954);
+    background-image: url(https://t4.ftcdn.net/jpg/05/62/02/41/360_F_562024161_tGM4lFlnO0OczLYHFFuNNdMUTG9ekHxb.jpg);
     margin-top: 0px  ;
     margin-bottom: 10px  ;
     border-radius: 30px;
-    box-shadow: 2px;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
     
 }
 
@@ -44,37 +47,49 @@ body{
 .nonunder :hover{
     color: aliceblue;
 }
+a:not(:hover){
+    transition: color 0.5s ease; /* Transition effect for color change when not hovered */
+
+}
 a{
     color: black;
+    text-decoration: none;
 }
 a :hover{
     color: rgb(255, 255, 255);
     margin: 25px;
-    box-shadow: 5px;
-    transition: color 700ms ease; /* Transition effect for color change */
-    cursor: pointer;
+    transition: color 500ms ease; /* Transition effect for color change */
 }
 #naruto{
     
     padding: 10px;
     border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(69, 69, 69);
+
 }
 #BlueLock{
     
     padding: 10px;
     border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(69, 69, 69);
+
 }
 #aot{
     padding: 10px;
     border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(69, 69, 69);
 }
 #Onepiece{
     padding: 10px;
     border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(69, 69, 69);
+
 }
 #dethnote{
     padding: 10px;
     border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(69, 69, 69);
+
 }
 #other{
     margin: 5px;
@@ -86,19 +101,24 @@ a :hover{
 #sololevel{
     padding: 10px;
     border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(69, 69, 69);
+
 }
 #fullmetal{
     padding: 10px;
     border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(69, 69, 69);
+
 }
 
 .nav{
-    background-color: rgba(233, 233, 21, 0.914);
+    background-image : linear-gradient(to right,rgba(233, 233, 21, 0.914),rgb(194, 171, 171,0.814),rgba(186, 186, 186, 0.14));
     padding: 1px;
     border-radius: 200px;
     margin: 5px;
     transition: color 0.5s ease; 
     cursor: pointer;   
+    box-shadow: 1px 1px 1px rgba(73, 73, 73, 0.29);
 }
 
 .aboutmetitle{

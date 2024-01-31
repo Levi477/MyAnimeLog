@@ -4,7 +4,7 @@
 
 
 body{
-    background-image: url("/img/Background.png");
+    background-image: url("img/Background.png");
     width: 600px;
     height: 900px;
     margin: auto;

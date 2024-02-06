@@ -4,7 +4,6 @@
 
 
 body{
-    background-image: url("../img/Background.png");
     width: 600px;
     height: 900px;
     margin: auto;
@@ -16,6 +15,7 @@ body{
     background-image: url(https://thegamingpulse.com/wp-content/uploads/2023/11/Assassins-creed-Red.webp);
     padding: 1px;
     margin: 20px;
+    color:aqua;
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
     box-shadow: 3px 3px 3px black;
 }
@@ -153,7 +153,8 @@ a{
 }
 
 #title a :hover{
-    color: white;
+    color: rgb(255, 61, 61);
+    transition: 500ms;
 }
 
 #review{

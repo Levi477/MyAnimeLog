@@ -150,6 +150,7 @@ a{
 
 #home a  :hover{
     color: rgb(255, 58, 58);
+    transition: 500ms;
 }
 
 #title a :hover{

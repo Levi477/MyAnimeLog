@@ -11,7 +11,6 @@ body{
 #title{
     text-align: center;
     font-family: Pacifico;
-    /* background-color: rgba(13, 29, 95, 0.954); */
     background-image: url(https://thegamingpulse.com/wp-content/uploads/2023/11/Assassins-creed-Red.webp);
     padding: 1px;
     margin: 20px;
@@ -64,8 +63,11 @@ a{
 }
 .nav a :hover{
     color: rgb(255, 255, 212);
-    margin-left: 20px;
-    transition: color 500ms ease; /* Transition effect for color change */
+    margin-left: 60px;
+    scale: 1.2;
+    transition: color 500ms ease-in-out; /* Transition effect for color change */
+    text-shadow: 5px 5px 5px rgb(72, 72, 72);
+    padding: 8px;
 }
 #naruto{
     
@@ -85,7 +87,7 @@ a{
     padding: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
-    font-family: Concert One;    ;
+    font-family: Concert One;    
 }
 #Onepiece{
     padding: 10px;
@@ -120,16 +122,15 @@ a{
 }
 
 .nav{
-    background-image : linear-gradient(to right,rgb(255, 226, 226),rgba(93, 93, 93, 0.814),rgba(186, 186, 186, 0.14));
-    padding: 1px;
-    border-radius: 200px;
-    margin: 5px;
-    transition: color 0.5s ease; 
-    cursor: pointer;   
-    box-shadow: 1px 1px 1px rgba(73, 73, 73, 0.29);
+    background-image : linear-gradient(to right,#ffedd6ea,rgba(93, 93, 93, 0.814),rgba(186, 186, 186, 0.14));
+    padding: 3px;
+    padding-left: 10px;
+    border-radius: 35px;
+    margin: 7px;
+    cursor: all-scroll;   
+    box-shadow: 3px 3px 1px rgba(73, 73, 73, 0.29);
     font-family: Concert One;
 }
-
 .aboutmetitle{
     background-color: rgba(94, 90, 226, 0.958);
     color: rgb(242, 255, 0);

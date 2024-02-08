@@ -2,12 +2,14 @@
 
 
 body{
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/61c30789-77e0-43f4-b55b-5c3e948020d9/dg24zxw-f190df98-25b1-4954-bfe9-f1058e716985.png);
+    background-image: url('../img/aboutme2.png');
     width: 600px;
     height: 900px;
     margin: auto;
     font-family: Acme;
     text-shadow: 2px 2px 2px rgb(35, 34, 34);
+    background-size:cover;
+    /* background-attachment: fixed; */
 }
 .nav{
     background-color: rgba(255, 255, 255, 0.914);
@@ -15,7 +17,7 @@ body{
     border-radius: 200px;
     margin: 5px;}
 
-#nav{
+#nav{   
         background-color: rgba(13, 29, 95, 0.954);
         margin-top: 100px  ;
         margin-bottom: 10px  ;
@@ -23,25 +25,25 @@ body{
 
 .aboutmetitle{
             background-color: rgba(255, 255, 255, 0.118);
-            color: rgb(241, 245, 179);
-            border-radius: 50px;
+            color: rgb(247, 255, 129);
+            border-radius: 30px;
             padding: 10px;
             margin: 5px;
             }
 
             #home{
-background-image: linear-gradient(to right,rgba(255, 0, 0, 0.206),rgba(255, 255, 0, 0.237)) ;                color: rgb(255, 255, 255);
+                background-color: #67b8ff3c ;                
                 padding: 2px;
                 border-radius: 10px;
                 text-decoration: none;
                 margin-bottom: 3px;
             }
 body{
-    background-color: rgb(244, 216, 240);
+    background-color: rgb(181, 181, 181);
 }   
          
 a:hover{
-    color: white;
+    color: rgb(255, 57, 57);
     transition: 0.5s;
 }
 #home{
@@ -49,6 +51,7 @@ a:hover{
 }
 
 #home a  :hover{
-    color: white;
+    color: rgb(120, 134, 255);
+    transition: 0.5s;
     
 }

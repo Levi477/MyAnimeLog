@@ -4,41 +4,52 @@
 
 
 body{
-    width: 600px;
+    width: 630px;
     height: 900px;
     margin: auto;
 }
 #title{
     text-align: center;
     font-family: Pacifico;
-    background-image: url(https://thegamingpulse.com/wp-content/uploads/2023/11/Assassins-creed-Red.webp);
+    background-image: url(../img/itachi_eye.png);
     padding: 1px;
     margin: 20px;
-    color:aqua;
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
     box-shadow: 3px 3px 3px black;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    /* background-attachment: fixed; */
+    
 }
 .anm_name{
     align-content: center;
-    border: 0px solid ;
+    border: 1px solid ;
     border-color: rgb(9, 5, 1);
     padding: 1px;
     margin-top: 40px;
     border-radius: 20px;
     text-align: center;
     box-shadow: 3px 3px 3px rgb(93, 93, 93);
-    text-shadow: 1px 1px 1px rgb(203, 202, 202);
-    font-family: Concert One;
+    text-shadow: 1px 1px 1px rgb(87, 87, 87);
+}
+.anm_name :hover{
+    scale: 1.5;
+    transition: all 500ms ease-in-out;
+    cursor:grab;
+    color: rgb(28, 28, 28);
+
 }
 #nav{
-    background-image: url(https://thegamingpulse.com/wp-content/uploads/2023/11/Assassins-creed-Red.webp);
+    background-image: url(https://www.colorwallpapers.com/uploads/wallpaper/dark-anime-wallpapers/width-853/tq3396o0NRZz-cool-dark-anime-horror-wallpaper-hd-desktop.png);
     margin-top: 0px  ;
     margin-bottom: 10px  ;
     border-radius: 30px;
     box-shadow: 2px 2px 2px black;
     text-shadow: 2px 2px 2px black;
     text-decoration: none;
-    
+    font-size: 16px;
+    background-size: auto;
+    background-attachment: fixed;
 }
 
 .nonunder{
@@ -53,27 +64,26 @@ body{
 .nonunder :hover{
     color: aliceblue;
 }
-a:not(:hover){
-    transition: color 0.5s ease; /* Transition effect for color change when not hovered */
-
-}
 a{
     color: black;
     text-decoration: none;
 }
 .nav a :hover{
-    color: rgb(255, 255, 212);
-    margin-left: 60px;
-    scale: 1.2;
+    color: rgba(255, 133, 115, 0.925);
+    margin-left: 100px;
+    scale: 1.4;
     transition: color 500ms ease-in-out; /* Transition effect for color change */
     text-shadow: 5px 5px 5px rgb(72, 72, 72);
     padding: 8px;
 }
 #naruto{
-    
     padding: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
+    font-size: 14px;
+    text-shadow: 1px 1px 1px gray;
+    border: 1px solid;
+
 
 }
 #BlueLock{
@@ -81,24 +91,39 @@ a{
     padding: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
+    text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
+    border: 1px solid;
+
+
 
 }
 #aot{
     padding: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
-    font-family: Concert One;    
+    text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
+    font-size: 14px;
+    border: 1px solid;
+
+
 }
 #Onepiece{
     padding: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
+    text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
+    border: 1px solid;
+
+
 
 }
 #dethnote{
     padding: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
+    text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
+    border: 1px solid;
+
 
 }
 #other{
@@ -112,17 +137,22 @@ a{
     padding: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
+    text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
+    border: 1px solid;
+
+
 
 }
 #fullmetal{
     padding: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
-
+    text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
+    border: 1px solid;
 }
 
 .nav{
-    background-image : linear-gradient(to right,#ffedd6ea,rgba(93, 93, 93, 0.814),rgba(186, 186, 186, 0.14));
+    background-image : linear-gradient(to right,#aac5ff,rgba(93, 93, 93, 0.903),rgba(186, 186, 186, 0.073));
     padding: 3px;
     padding-left: 10px;
     border-radius: 35px;
@@ -139,7 +169,6 @@ a{
     margin: 5px;
 }
 #home{
-    /* background-color: rgba(13, 29, 95, 0.957); */
     background-image: url(https://thegamingpulse.com/wp-content/uploads/2023/11/Assassins-creed-Red.webp);
     padding: 2px;
     border-radius: 10px;
@@ -147,31 +176,33 @@ a{
     margin-bottom: 3px;
     text-shadow: 3px 3px 3px rgb(35, 35, 35);
     box-shadow: 3px 3px 3px rgb(23, 23, 23);
+
 }
 
 #home a  :hover{
-    color: rgb(255, 58, 58);
-    transition: 500ms;
+    color: rgb(255, 77, 37);
+    transition: all 400ms ease-in-out;
+    scale: 1.08;
 }
 
 #title a :hover{
-    color: rgb(255, 61, 61);
-    transition: 500ms;
+    color: rgb(59, 53, 52);
+    transition: all 700ms ease-in-out;
+    scale: 1.5;
+
 }
 
 #review{
-position: fixed;
-top: 0;
-right: 0;
-border-radius: 200px;
-/* background-color: black; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 200px;
 }
 #review a:hover{
     color: aliceblue;
 }
 #reviewbutton{
     border-radius: 20px;
-    /* background-color: rgb(255, 187, 0); */
     font-family: Concert One;
     
 }

@@ -17,9 +17,7 @@ body{
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
     box-shadow: 3px 3px 3px black;
     background-size: cover;
-    background-repeat: no-repeat; 
-    /* background-attachment: fixed; */
-    
+    background-repeat: no-repeat;     
 }
 .anm_name{
     align-content: center;
@@ -56,11 +54,7 @@ body{
     text-decoration: none;
        
 }
-.other{
-    text-decoration: none;
-    color: rgba(42, 5, 66, 0.773);
-       
-}
+
 .nonunder :hover{
     color: aliceblue;
 }
@@ -72,12 +66,12 @@ a{
     color: rgba(255, 133, 115, 0.925);
     margin-left: 100px;
     scale: 1.4;
-    transition: color 500ms ease-in-out; /* Transition effect for color change */
+    transition: color 400ms ease-in-out; /* Transition effect for color change */
     text-shadow: 5px 5px 5px rgb(72, 72, 72);
     padding: 8px;
 }
 #naruto{
-    padding: 10px;
+    padding: 25px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
     font-size: 14px;
@@ -88,7 +82,7 @@ a{
 }
 #BlueLock{
     
-    padding: 10px;
+    padding: 25px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
     text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
@@ -98,7 +92,7 @@ a{
 
 }
 #aot{
-    padding: 10px;
+    padding: 25px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
     text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
@@ -108,7 +102,7 @@ a{
 
 }
 #Onepiece{
-    padding: 10px;
+    padding: 25px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
     text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
@@ -117,34 +111,88 @@ a{
 
 
 }
-#dethnote{
-    padding: 10px;
+.otheranimenav{
+    position: fixed;
+    top: 5px;
+    left: 0;
+    background-color: rgba(233, 243, 255, 0.442);
     border-radius: 20px;
-    box-shadow: 3px 3px 3px rgb(69, 69, 69);
-    text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
-    border: 1px solid;
-
-
-}
-#other{
     margin: 5px;
-    background-color: rgb(195, 227, 173);
-    padding: 3px;
-    border-radius: 10px;
-    align-self: center;
+    padding: 20px;
+    padding-left: 0px;
+    box-shadow: 3px 3px 3px rgba(83, 83, 83, 0.768);
+    font-family: 'Courier New', Courier, monospace;
+
+
 }
-#sololevel{
+.otheranimenav a{
+    font-size: 20px;
     padding: 10px;
+}
+.otheranime :hover{
+    scale: 1.1;
+    transition: all 400ms ease-in-out;
+}
+
+#dethnote{
+    padding: 25px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
     text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
     border: 1px solid;
+}
+.otheranimeind{
+    padding: 10px;
+    background-color: antiquewhite;
+    margin: 8px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
+}
+.otheranimeind :hover{
+    transition: all 400ms ease-in-out;
+    scale: 1.1;
+    margin: 10px;
+}
+.otheranimeind a:hover{
+    transition: all 400ms ease-in-out;
+    color: red;
+    scale: 1.1;
+    font-weight:bolder;
+}
 
-
-
+#sololevel{
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(69, 69, 69);
+    text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
+    border: 1px solid;
+}
+#mobpsycho{
+    align-content: center;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(69, 69, 69);
+    text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
+    border: 1px solid;
+}
+#parasyte{
+    align-content: center;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(69, 69, 69);
+    text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
+    border: 1px solid;
+}
+#onepunchman{
+    align-content: center;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(69, 69, 69);
+    text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
+    border: 1px solid;
 }
 #fullmetal{
-    padding: 10px;
+    padding: 25px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px rgb(69, 69, 69);
     text-shadow: 1px 1px 1px rgba(174, 174, 174, 0.549);
@@ -186,7 +234,7 @@ a{
 }
 
 #title a :hover{
-    color: rgb(59, 53, 52);
+    color: rgb(220, 23, 9);
     transition: all 700ms ease-in-out;
     scale: 1.5;
 
@@ -197,9 +245,11 @@ a{
     top: 0;
     right: 0;
     border-radius: 200px;
+    transition: all 400ms ease;
 }
-#review a:hover{
+#review :hover{
     color: aliceblue;
+    scale: 1.07;
 }
 #reviewbutton{
     border-radius: 20px;

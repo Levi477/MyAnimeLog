@@ -12,46 +12,43 @@ body{
     /* background-attachment: fixed; */
 }
 .nav{
-    background-color: rgba(255, 255, 255, 0.914);
+    background-color: rgb(255, 255, 255);
     padding: 1px;
     border-radius: 200px;
     margin: 5px;}
 
 #nav{   
-        background-color: rgba(13, 29, 95, 0.954);
+        background-color: rgba(255, 255, 255, 0.954);
         margin-top: 100px  ;
         margin-bottom: 10px  ;
         border-radius: 30px;}
 
 .aboutmetitle{
-            background-color: rgba(255, 255, 255, 0.118);
+            background-color: rgba(226, 15, 15, 0.228);
             color: rgb(247, 255, 129);
             border-radius: 30px;
             padding: 10px;
             margin: 5px;
             }
 
-            #home{
-                background-color: #67b8ff3c ;                
-                padding: 2px;
-                border-radius: 10px;
-                text-decoration: none;
-                margin-bottom: 3px;
+#home{
+    background-color: #058aff48 ;                
+    padding: 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 3px;
             }
 body{
     background-color: rgb(181, 181, 181);
 }   
          
-a:hover{
-    color: rgb(255, 57, 57);
-    transition: 0.5s;
-}
+
 #home{
     transition: 5ms;
 }
 
 #home a  :hover{
-    color: rgb(120, 134, 255);
+    color: rgb(221, 76, 76);
     transition: 0.5s;
     
-}
+}  
